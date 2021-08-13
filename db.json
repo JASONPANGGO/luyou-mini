@@ -1,22 +1,22 @@
 [
-    {
-        "id": 0,
-        "router":"/kill/me",
-        "code": "process.exit()"
-    },
-    {
-        "id": 1,
-        "router":"/kill/me/harder",
-        "code": "this.constructor.constructor('return process')().exit()"
-    },
-    {
-        "id": 2,
-        "router":"/yoyoyo/test",
-        "code": "return 'yo!'"
-    },
-    {
-        "id": 3,
-        "router":"/deno/test",
-        "code":"import { cloneDeep } from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';const foo = { a: 1 };const bar = cloneDeep(foo);foo.a++;console.log(bar);return bar;"
-    }
+  {
+    "id": 0,
+    "router": "/kill/me",
+    "code": "process.exit()"
+  },
+  {
+    "id": 1,
+    "router": "/kill/me/harder",
+    "code": "this.constructor.constructor('return process')().exit()"
+  },
+  {
+    "id": 2,
+    "router": "/yoyoyo/test",
+    "code": "return 'yo!'"
+  },
+  {
+    "id": 3,
+    "router": "/deno/test",
+    "code": "import { cloneDeep } from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';const foo = { a: 1 };const bar = cloneDeep(foo);foo.a++;console.log(bar);return bar;"
+  }
 ]
