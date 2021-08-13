@@ -1,11 +1,12 @@
 {
-  "name": "lab",
+  "name": "luyou-mini",
   "scripts": {
-    "luyou": "tsnd luyou.ts"
+    "serve": "tsnd main.ts"
   },
   "dependencies": {
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "vm2": "^3.9.3"
   },
   "devDependencies": {
     "@types/node": "^16.0.0"
